@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class NewDesign extends Fragment {
 	TextView txtDeviceInfoHome;
@@ -64,6 +65,7 @@ public class NewDesign extends Fragment {
 				if (editText.getText().toString().trim().equalsIgnoreCase("")) {
 					editText.setError("Value Can\'t Be Empty");
 				} else {
+					Toast.makeText(getActivity(), "Push success: " + editText.getText().toString(), Toast.LENGTH_LONG).show();
 					callback.onGetValue(editText.getText().toString().trim());
 				}
 			}
