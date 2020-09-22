@@ -688,9 +688,6 @@ id async
 id blocking
 id bottom
 id btnGetDeviceIno
-id btnGotoSecondActivity
-id btnOnBackFirstActivity
-id btnOnBackFlutterView
 id buttonPanel
 id cancel_action
 id checkbox
@@ -704,11 +701,14 @@ id decor_content_parent
 id default_activity_button
 id dialog_button
 id edit_query
+id edtEditText
 id end
 id end_padder
 id expand_activities_button
 id expanded_menu
 id forever
+id frame_layout
+id frame_layout_new_design
 id group_divider
 id home
 id icon
@@ -828,7 +828,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout custom_dialog
-layout first_activity
 layout fragment_new_design
 layout notification_action
 layout notification_action_tombstone
@@ -845,7 +844,6 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout second_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -57,7 +57,7 @@ public class StartActivity extends AppCompatActivity implements NewDesign.OnHead
 	}
 
 	@Override
-	public void onGetDeviceInfo(String s) {
+	public void onGetValue(String s) {
 		deviceInfo = s;
 	}
 }

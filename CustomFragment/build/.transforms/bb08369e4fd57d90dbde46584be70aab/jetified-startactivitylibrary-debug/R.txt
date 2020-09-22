@@ -687,9 +687,6 @@ int id async 0x0
 int id blocking 0x0
 int id bottom 0x0
 int id btnGetDeviceIno 0x0
-int id btnGotoSecondActivity 0x0
-int id btnOnBackFirstActivity 0x0
-int id btnOnBackFlutterView 0x0
 int id buttonPanel 0x0
 int id cancel_action 0x0
 int id checkbox 0x0
@@ -703,11 +700,14 @@ int id decor_content_parent 0x0
 int id default_activity_button 0x0
 int id dialog_button 0x0
 int id edit_query 0x0
+int id edtEditText 0x0
 int id end 0x0
 int id end_padder 0x0
 int id expand_activities_button 0x0
 int id expanded_menu 0x0
 int id forever 0x0
+int id frame_layout 0x0
+int id frame_layout_new_design 0x0
 int id group_divider 0x0
 int id home 0x0
 int id icon 0x0
@@ -827,7 +827,6 @@ int layout abc_search_view 0x0
 int layout abc_select_dialog_material 0x0
 int layout abc_tooltip 0x0
 int layout custom_dialog 0x0
-int layout first_activity 0x0
 int layout fragment_new_design 0x0
 int layout notification_action 0x0
 int layout notification_action_tombstone 0x0
@@ -844,7 +843,6 @@ int layout notification_template_media 0x0
 int layout notification_template_media_custom 0x0
 int layout notification_template_part_chronometer 0x0
 int layout notification_template_part_time 0x0
-int layout second_activity 0x0
 int layout select_dialog_item_material 0x0
 int layout select_dialog_multichoice_material 0x0
 int layout select_dialog_singlechoice_material 0x0
