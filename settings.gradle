@@ -1,4 +1,3 @@
-include ':CustomFragment'
 include ':startactivitylibrary'
 include ':app'
 rootProject.name = "demo_android_library"

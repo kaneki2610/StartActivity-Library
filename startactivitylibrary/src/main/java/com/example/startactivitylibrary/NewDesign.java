@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +17,7 @@ public class NewDesign extends Fragment {
 	TextView txtDeviceInfoHome;
 	Button btnPushData;
 	EditText editText;
+	FrameLayout frameLayout;
 	OnHeadlineSelectedListener callback;
 
 	@Override
@@ -56,6 +58,7 @@ public class NewDesign extends Fragment {
 		txtDeviceInfoHome = view.findViewById(R.id.txtDeviceInfoHome);
 		btnPushData = view.findViewById(R.id.btnGetDeviceIno);
 		editText = view.findViewById(R.id.edtEditText);
+		frameLayout = view.findViewById(R.id.frame_layout_new_design);
 	}
 
 	private void onHandleClick() {

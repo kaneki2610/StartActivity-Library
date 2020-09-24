@@ -3,15 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/frame_layout"
+    android:id="@+id/frame_layout_new_design"
     android:background="@android:color/white"
     tools:context=".NewDesign">
-    <FrameLayout
-        android:id="@+id/frame_layout_new_design"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </FrameLayout>
     <LinearLayout
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
